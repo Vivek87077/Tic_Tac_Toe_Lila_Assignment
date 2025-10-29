@@ -184,8 +184,8 @@ multitac-mern/
 
 #### Production URLs
 
-- **Frontend**: `https://your-netlify-site.netlify.app`
-- **Backend**: `https://multitac-backend.onrender.com`
+- **Frontend**: [https://tic-tac-toe-lila-assignment.netlify.app/]
+- **Backend**: [https://tic-tac-toe-lila-assignment.onrender.com]
 
 ## 🤝 Contributing
 
@@ -214,4 +214,5 @@ multitac-mern/
 ---
 
 **Happy Gaming! 🎮**
+
 
