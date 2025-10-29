@@ -5,9 +5,16 @@ import { setupMatchSocket } from "./game/matchManager.js";
 
 const server = http.createServer(app);
 
+const allowedOrigins = [
+  "http://localhost:5173", // Vite local dev
+  "https://tic-tac-toe-lila-assignment.netlify.app/", // replace with your actual Netlify URL
+];
+
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: allowedOrigins,
+    methods: ["GET", "POST"],
+    credentials: true,
   },
 });
 
