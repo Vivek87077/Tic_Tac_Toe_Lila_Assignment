@@ -2,6 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
+  "description": "Frontend for MultiTac - Real-time Tic-Tac-Toe Game",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -28,5 +29,8 @@
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
     "vite": "^7.1.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
